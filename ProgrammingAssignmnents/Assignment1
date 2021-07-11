@@ -1,0 +1,23 @@
+Write a Python program to print "Hello Python"?
+	print("Hello")
+Write a Python program to do arithmetical operations addition and division.?
+		def add(a,b):
+  return a+b
+  
+def div(a,b):
+  try:
+    return a/b
+  except:
+    print("Can not divide by 0")
+Write a Python program to find the area of a triangle?
+	def areaOfTriangle(base, height):
+  		return 1/2 * base * height
+Write a Python program to swap two variables?
+	def swap(a,b):
+  print('a:', a, 'b:', b)
+  a,b = b,a
+  print('a:', a, 'b:', b)
+Write a Python program to generate a random number?
+	import random
+	n = random.random()
+	print(n)
